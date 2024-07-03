@@ -1,3 +1,6 @@
+//clone this repo using
+`git clone --recursive https://github.com/rahad-dev24/sazim-teebay.git`
+
 //Installation Instructions
 
 ***First run `docker compose up` to start the frontend and database server. 
