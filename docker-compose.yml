@@ -1,0 +1,25 @@
+
+
+services:
+  postgres:
+    image: postgres:14-alpine 
+    restart: always
+    expose: 
+      - 5432
+    ports:
+      - 127.0.0.1:5421:5432
+    volumes:
+      - ./db:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=sazim
+
+      
+  frontend:
+    build: ./frontend
+    container_name: frontend
+    ports:
+      - 3000:3000
+    
+
