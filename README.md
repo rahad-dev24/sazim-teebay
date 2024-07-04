@@ -7,7 +7,7 @@
 
 ( Assming you have docker installed this might take some time. This step is taken to make the frontend and the database as production ready as possible. If this is taking too long foy you, just cd to the frontend folder and run `npm i && npm run dev` or `npm i && npm run build && npm run start`. As for the database change the .env file in backend folder and give necessary URL. )
 
-***Then cd to the backend folder and run `npm install` to install the packages after that run `npm run start` to start the backend server and redis server. 
+***Then cd to the backend folder and run `npm install` to install the packages after that run `npm run start` to start the backend server and redis server. If it exits out, give the docker database a minute to load properly and try running `npm run start` again. 
 
 (Assuming you have node, npm and redis installed)
 
