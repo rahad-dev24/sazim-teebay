@@ -1,5 +1,5 @@
 //clone this repo using
-`git clone --recursive https://github.com/rahad-dev24/sazim-teebay.git`
+`git clone  https://github.com/rahad-dev24/sazim-teebay.git &&cd sazim-teebay/ && rm -rf /backend && rm -rf /frontend && git clone git@github.com:rahad-dev24/backend.git && git clone git@github.com:rahad-dev24/frontend.git`
 
 //Installation Instructions
 
